@@ -1,0 +1,10 @@
+#LINKS
+
+##Download do Git:https://git-scm.com/downloads
+
+##Typora (Editor Markdown): https://typora.io/
+
+
+#EXPLICAÇÕES
+
+Ps.: O Git Bash é um terminal extendido para otimizar o uso do GIT.
