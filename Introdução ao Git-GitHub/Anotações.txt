@@ -8,3 +8,62 @@
 #EXPLICAÇÕES
 
 Ps.: O Git Bash é um terminal extendido para otimizar o uso do GIT.
+
+#CRIANDO REPOSITORIO NO GITHUB:
+
+1)Acessar  o site do GitHub e logar com minha conta:https://github.com/ViniciusAlmeidaPiT
+
+2)Clicar no botão perto das configurações de perfil para criar Novo Repositório
+
+3)Escolher um nome para o repositório, depois escolher qual o tipo de privacidade, e habilitar as opções desejadas
+no caso eu gosto de usar a "Add a Read Me file". Por fim clicar no botão 'Criar Repositório".
+
+4)No ReadMe inserir as informações sobre o projeto e direótio, para que sirva de apresentação.
+
+***AGORA PARA COLOCAR ESSES ARQUIVOS NA NOSSA MÁQUINA***
+
+5)Achar o botão Code ainda no site da GitHub e clicar nele. Você vai notar que existem varias opções de se obter o link desse diretório.
+
+6)Copiar o HTTPS. Criar uma pasta na sua máquina, onde deseja salvar o projeto.
+
+7) Dentro dessa parte que acabou de ser criada, clicar com o botão direito dentro dela e selecionar "Git Bash Here", e a janela de comandos do GIT vai abrir.
+
+**Como podera notar o diretório da pasta ja vai estar selecionado.
+
+8)Nos comandos digitar: git clone ###COLAR AQUI O DIRETÓRIO QUE COPIAMOS DA NOSSA PAGINA NO GITHUB###, e apertar enter.
+**Ele vai mostrar uma mensagem falando que esta clonando. Se for a primeira que estiver fazendo isso na máquina ele pode pedir validação da conta.
+**Se vc for até a pasta agora, vai notar que os arquivos agora se encontram na sua máquina tmb e a operação funcionou.
+
+9)Agora para entrar dentro do nosso repositório, só precisamos digitar cd ##CAMINHO, OU COLAR CAMINHO, OU DIGITAR O INICIO DELE E DEPOIS TAB##.
+
+10)Digitando o coando: git status , podemos notar que esta tudo certo e que estamos dentro do nosso diretório.
+
+***AGORA PARA FAZER O PROCESSO INVERSO. FAZER UM ARQUIVO QUE ESTA NA MÁQUINA SER CARREGADO PAR O GITHUB
+
+11)Crie uma subpasta qualquer dentro do seu novo diretório, e crie um arquivo txt por exemplo. Você pode escrever coisas nele para verificar apenas como fica depois.
+
+12)Agora se vc digitar o comando: git status , ele vai acusar em vermelho que tem uma nova pasta/arquivo que não está no Github.
+
+13)Para dizer para o github que ele deve subir tudo devemos digitar algum dos seguintes comandos:
+
+	git add -A
+		ou
+	git add . (PARA ADICIONAR TODOS OS ARQUIVOS / Hoje uso mais esse)
+
+14)Para verificar se funcionou, digite novamente o comando: git status , ele deve apresentar o novo arquivo em verde. Sem nada em vermelho.
+
+***AINDA NÃO SERÁ POSSIVEL VERIFIAR ISSO NO GITHUB da nossa conta, então devemos entrar com mais os seguintes códigos de comando****
+
+15) Digitar: git commit -m "inclusão do arquivo novo" e aperte enter. (Essa mensagem entre aspas pode ser qualquer uma e serve de histórico para os commits, é uma boa prática.
+
+16) Ele pode te dar uma mensagem falando que criou o arquivos. Então para verificar devo digitar: git status e apertar enter.
+
+17)Ele pode te mostrar uma mensagem que a Branch is ahead of 'origin/main' e mais outras coisas, então ele ta dizendo que
+se quisermos mandar os arquivos para a nuvem, eu preciso dar um push.
+
+18)digitar o comando: git push main e apertar enter
+
+***AGORA SIM***Processo Completo.
+
+
+
