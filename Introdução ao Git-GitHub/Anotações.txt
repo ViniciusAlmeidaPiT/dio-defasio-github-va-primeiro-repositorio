@@ -61,7 +61,7 @@ no caso eu gosto de usar a "Add a Read Me file". Por fim clicar no botão 'Criar
 17)Ele pode te mostrar uma mensagem que a Branch is ahead of 'origin/main' e mais outras coisas, então ele ta dizendo que
 se quisermos mandar os arquivos para a nuvem, eu preciso dar um push.
 
-18)digitar o comando: git push main e apertar enter
+18)digitar o comando: git push origin main e apertar enter
 
 ***AGORA SIM***Processo Completo.
 
